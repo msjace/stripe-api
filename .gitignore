@@ -1,0 +1,7 @@
+api/node_modules
+
+api/tmp
+
+/data
+
+.env

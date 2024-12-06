@@ -1,4 +1,4 @@
-import type { PaymentMode } from './enums'
+import type { PaymentMode } from './enum_types'
 import type Stripe from 'stripe'
 
 export interface ICreateCheckoutSessionRequest {

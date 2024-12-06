@@ -1,4 +1,4 @@
-import { PaymentMode } from '../../common/interfaces/stripe/enums'
+import { PaymentMode } from '../../common/interfaces/stripe/enum_types'
 import { StripePaymentIntentRepository } from '../../repositories/stripe/paymentIntent'
 import { StripePaymentMethodRepository } from '../../repositories/stripe/payment_method'
 import { StripeSetupIntentRepository } from '../../repositories/stripe/setup_intent'

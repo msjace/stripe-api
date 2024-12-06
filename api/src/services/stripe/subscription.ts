@@ -2,7 +2,7 @@ import {
   PaymentBehavior,
   SaveDefaultPaymentMethod,
   SubscriptionExpand,
-} from '../../common/interfaces/stripe/enums'
+} from '../../common/interfaces/stripe/enum_types'
 import { StripeCustomerRepository } from '../../repositories/stripe/customer'
 import { StripeSubscriptionRepository } from '../../repositories/stripe/subscription'
 

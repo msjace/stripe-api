@@ -1,4 +1,4 @@
-import { SubscriptionStatus } from '../../common/interfaces/stripe/enums'
+import { SubscriptionStatus } from '../../common/interfaces/stripe/enum_types'
 
 import { References } from './base/references'
 import { StripeRepository } from './base/repository'

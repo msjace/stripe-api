@@ -1,6 +1,6 @@
 import { UserRepository } from '../../repositories/user'
 
-import type { CurrencyType } from '../../common/interfaces/stripe/enums'
+import type { CurrencyType } from '../../common/interfaces/stripe/enum_types'
 import type { IPrice } from '../../common/interfaces/stripe/price'
 import type Stripe from 'stripe'
 
@@ -29,7 +29,7 @@ export const updateCustomerId = async (uid: string, customer: string) => {
   if (!user) {
     throw new Error('user not found')
   }
-  
+
   if (!user.customerId) {
     user.customerId = customer
     await UserRepository.update(user)

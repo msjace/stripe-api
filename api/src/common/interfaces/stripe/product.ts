@@ -1,4 +1,4 @@
-import type { CurrencyType } from './enums'
+import type { CurrencyType } from './enum_types'
 
 export interface IProductMetadata {
   tax_rate: string

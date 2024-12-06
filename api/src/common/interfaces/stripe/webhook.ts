@@ -1,4 +1,4 @@
-import type { PaymentMethodType } from './enums'
+import type { PaymentMethodType } from './enum_types'
 import type Stripe from 'stripe'
 
 export interface IChargeRefunded {

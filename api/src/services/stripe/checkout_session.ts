@@ -1,7 +1,7 @@
 import {
   PaymentMethodType,
   PaymentMode,
-} from '../../common/interfaces/stripe/enums'
+} from '../../common/interfaces/stripe/enum_types'
 import { StripeCheckoutSessionRepository } from '../../repositories/stripe/checkout_session'
 import { StripePaymentIntentRepository } from '../../repositories/stripe/paymentIntent'
 import { StripeSubscriptionRepository } from '../../repositories/stripe/subscription'
